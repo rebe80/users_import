@@ -52,7 +52,7 @@ do
    echo "shadowExpire: -1" >> tmp.ldif
    echo "shadowFlag: 0" >> tmp.ldif
    echo "shadowWarning: 7" >> tmp.ldif
-   echo "shadowMin: 8" >> tmdddp.ldif
+   echo "shadowMin: 8" >> tmp.ldif
    echo "shadowMax: 999999" >> tmp.ldif
    echo "shadowLastChange: 10877" >> tmp.ldif
    echo "mail: ${nom[0]}.${nom[1]}@aso.local" >> tmp.ldif
