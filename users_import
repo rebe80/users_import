@@ -55,7 +55,7 @@ do
    echo "shadowMin: 8" >> tmdddp.ldif
    echo "shadowMax: 999999" >> tmp.ldif
    echo "shadowLastChange: 10877" >> tmp.ldif
-   echo "mail: ${nom[0]}.${nom[1]}@somebooks.com" >> tmp.ldif
+   echo "mail: ${nom[0]}.${nom[1]}@aso.local" >> tmp.ldif
    echo "postalCode: 29000" >> tmp.ldif
    echo "o: aso" >> tmp.ldif
    echo "initials: $inic" >> tmp.ldif
